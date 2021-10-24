@@ -4,11 +4,6 @@
     box-sizing: border-box;
 }
 
-body{
-    background-color: #eee;
-}
-
-
 body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif; 
     font-size: 1.6rem; 
     line-height: 1.5; 
@@ -60,5 +55,26 @@ h1{
     align-items: center;
     flex-direction: column;
     display: flex;
-    width: 70%;
+}
+
+.tribute-info-text {
+    width: 72%;
+    text-align: left;
+}
+
+#tribute-link {
+    padding: 15% 0;
+}
+
+.side-tribute-info {
+    padding: 10% 0;
+}
+
+.info-author {
+ padding: 10% 0;
+}
+
+.side-author-info {
+    text-align: left;
+    margin-left: 10%;
 }
